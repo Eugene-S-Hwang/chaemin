@@ -1,10 +1,11 @@
 import yagmail
+import streamlit as st
 import random
 import os
 
-receiver = os.environ["CH_EMAIL"]
+receiver = st.secrets["CH_EMAIL"]
 
-yag = yagmail.SMTP(os.environ["CH2EMAIL"], oauth2_file='~/Work/oauth2.json')
+yag = yagmail.SMTP(st.secrets["CH2EMAIL"], oauth2_file='~/Work/oauth2.json')
 
 def send_email():
 
