@@ -2,7 +2,7 @@ import streamlit as st
 import send_email
 
 
-receiver = st.secrets["CH_EMAIL"]
+receiver = "rubysophia0716@gmail.com"
 
 sender = "eugene2chaemin@gmail.com"
 st.title("For Chaemin")
