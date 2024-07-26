@@ -2,12 +2,10 @@ import streamlit as st
 import send_email
 
 
-# receiver = st.secrets["CH_EMAIL"]
+receiver = "rubysophia0716@gmail.com"
 
-# sender = st.secrets["CH2EMAIL"]
-# st.title("For Chaemin")
-# if(st.button("Press for a surprise!", type="primary")):
-#     send_email.send_email(receiver, sender)
-#     st.write("sent!")
-
-st.write(st.secrets)
+sender = "eugene2chaemin@gmail.com"
+st.title("For Chaemin")
+if(st.button("Press for a surprise!", type="primary")):
+    send_email.send_email(receiver, sender)
+    st.write("sent!")
