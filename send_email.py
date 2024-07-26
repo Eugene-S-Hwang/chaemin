@@ -10,7 +10,7 @@ def send_email(receiver, sender):
     body = ["I love you so much!", "You are doing great. Keep going, I am right next to you.", "You are so so pretty :D", "You're the best and you make me feel so happy. I feel so loved when I'm with you",
             "If I'm not with you, I miss you.", "I can trust you with my life, my love. I can trust you with everything."]
 
-    yag = yagmail.SMTP(sender, oauth2_file='~/Work/oauth2.json')
+    yag = yagmail.SMTP(sender, oauth2_file='oauth2.json')
     yag.send(
         to=receiver,
         subject="test",
