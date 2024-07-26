@@ -1,9 +1,10 @@
 import yagmail
 import random
+import os
 
-receiver = "rubysophia0716@gmail.com"
+receiver = os.environ["CH_EMAIL"]
 
-yag = yagmail.SMTP('eugene2chaemin@gmail.com', oauth2_file='~/Work/oauth2.json')
+yag = yagmail.SMTP(os.environ["CH2EMAIL"], oauth2_file='~/Work/oauth2.json')
 
 def send_email():
 
