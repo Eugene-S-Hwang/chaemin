@@ -29,7 +29,7 @@ def new_alert(msg):
         visited.insert(msg)
         return "NEW MESSAGE UNLOCKED! \n"
     else:
-        return ""
+        return "testing"
 
 def send_email(receiver, sender):
 
