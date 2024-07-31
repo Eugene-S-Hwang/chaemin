@@ -9,3 +9,6 @@ st.title("For Chaemin")
 if(st.button("Press for a surprise!", type="primary")):
     send_email.send_email(receiver, sender)
     st.write("sent!")
+if(st.button("Press for a new surprise!", type="primary")):
+    send_email.send_new_email(receiver, sender)
+    st.write("sent!")

@@ -17,6 +17,11 @@ body = ["I love you so much!", "You are doing great. Keep going, I am right next
             "You're beautiful, you know that?", "I can completely rely on you because I trust you the most.", "You are my favorite person :)", "You're so FUCKING PRETTYYYYYY", "I hope you're doing okay right now. I always do.", "I'm always so proud of everything that you do.",
             "You're a beauty. Prettiest girl that I have ever seen in my life.", "I can't help but go crazy whenever I see you. Because you are gorgeous.", "I care about you the most.", "I'll give you the strength to keep going, whenever you need it. :)"]
 
+newbody = ["I always think you're so cute and lovely and I will give it my all for this relationship <3",
+            "You're like my other half.", "I'm completely in love with you. You're so pretty.", "I can't wait to marry you.", "We should go to Korea together. First thing after we graduate hehe!", "I love hugging you really tightly.", "I love sending you good morning texts and having late night calls with you.",
+            "You're beautiful, you know that?", "I can completely rely on you because I trust you the most.", "You are my favorite person :)", "You're so FUCKING PRETTYYYYYY", "I hope you're doing okay right now. I always do.", "I'm always so proud of everything that you do.",
+            "You're a beauty. Prettiest girl that I have ever seen in my life.", "I can't help but go crazy whenever I see you. Because you are gorgeous.", "I care about you the most.", "I'll give you the strength to keep going, whenever you need it. :)"]
+
 def send_email(receiver, sender):
 
     yag = yagmail.SMTP(sender, oauth2_file='oauth2.json')
@@ -24,4 +29,12 @@ def send_email(receiver, sender):
         to=receiver,
         subject="test",
         contents=body[random.randint(0, len(body) - 1)]
+    )
+
+def send_new_email(receiver, sender):
+    yag = yagmail.SMTP(sender, oauth2_file='oauth2.json')
+    yag.send(
+        to=receiver,
+        subject="test",
+        contents=newbody[random.randint(0, len(newbody) - 1)]
     )
