@@ -37,7 +37,7 @@ def send_email(receiver, sender):
     msg = body[random.randint(0, len(body) - 1)]
     yag.send(
         to=receiver,
-        subject="test",
+        subject="YOU GOT A MESSAGE",
         contents=new_alert(msg) + msg
     )
 
@@ -46,6 +46,6 @@ def send_new_email(receiver, sender):
     msg = newbody[random.randint(0, len(newbody) - 1)]
     yag.send(
         to=receiver,
-        subject="test",
+        subject="YOU GOT A MESSAGE",
         contents=new_alert(msg) + msg
     )
