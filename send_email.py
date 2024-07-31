@@ -12,7 +12,10 @@ body = ["I love you so much!", "You are doing great. Keep going, I am right next
             "You are my cute precious girl.", "I sometimes think I'm so lucky that my first crush loves me back.", "I love pinching your cheeks and playing around with them. They're so cuteeee!", "The way you treat me is so different from everyone. It just pulled me in to you so much faster than I expected.",
             "Press this link :) --> https://docs.google.com/document/d/1SoDOTAQRlWuL9NBBWDMRc2cXvHtoqW3SPRZ8wDURG8Q/edit", "It's also the first time I've ever been attached to someone. And I want to keep it as the only time. My first and only lover.",
             "I fall more in love with you every day.", "Chaemin, I promise that I'll always tell you all the stories in the world and that I'll always be falling for you.", 
-            "I want my future to be you Chaemin. I don't want that to change at all.", "I love the way you love me and care for me.", "I can't get enough of you. I want to hold your hand forever."]
+            "I want my future to be you Chaemin. I don't want that to change at all.", "I love the way you love me and care for me.", "I can't get enough of you. I want to hold your hand forever.", "I always think you're so cute and lovely and I will give it my all for this relationship <3",
+            "You're like my other half.", "I'm completely in love with you. You're so pretty.", "I can't wait to marry you.", "We should go to Korea together. First thing after we graduate hehe!", "I love hugging you really tightly.", "I love sending you good morning texts and having late night calls with you.",
+            "You're beautiful, you know that?", "I can completely rely on you because I trust you the most.", "You are my favorite person :)", "You're so FUCKING PRETTYYYYYY", "I hope you're doing okay right now. I always do.", "I'm always so proud of everything that you do.",
+            "You're a beauty. Prettiest girl that I have ever seen in my life.", "I can't help but go crazy whenever I see you. Because you are gorgeous.", "I care about you the most.", "I'll give you the strength to keep going, whenever you need it. :)"]
 
 def send_email(receiver, sender):
 
