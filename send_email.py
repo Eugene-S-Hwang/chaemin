@@ -22,7 +22,7 @@ newbody = ["I always think you're so cute and lovely and I will give it my all f
             "You're beautiful, you know that?", "I can completely rely on you because I trust you the most.", "You are my favorite person :)", "You're so FUCKING PRETTYYYYYY", "I hope you're doing okay right now. I always do.", "I'm always so proud of everything that you do.",
             "You're a beauty. Prettiest girl that I have ever seen in my life.", "I can't help but go crazy whenever I see you. Because you are gorgeous.", "I care about you the most.", "I'll give you the strength to keep going, whenever you need it. :)"]
 
-visited = {}
+visited = set()
 
 def new_alert(msg):
     if(msg not in visited):
