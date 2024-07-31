@@ -22,19 +22,30 @@ newbody = ["I always think you're so cute and lovely and I will give it my all f
             "You're beautiful, you know that?", "I can completely rely on you because I trust you the most.", "You are my favorite person :)", "You're so FUCKING PRETTYYYYYY", "I hope you're doing okay right now. I always do.", "I'm always so proud of everything that you do.",
             "You're a beauty. Prettiest girl that I have ever seen in my life.", "I can't help but go crazy whenever I see you. Because you are gorgeous.", "I care about you the most.", "I'll give you the strength to keep going, whenever you need it. :)"]
 
+visited = {}
+
+def new_alert(msg):
+    if(msg not in visited):
+        visited.insert(msg)
+        return "NEW MESSAGE UNLOCKED! \n"
+    else:
+        return ""
+
 def send_email(receiver, sender):
 
     yag = yagmail.SMTP(sender, oauth2_file='oauth2.json')
+    msg = body[random.randint(0, len(body) - 1)]
     yag.send(
         to=receiver,
         subject="test",
-        contents=body[random.randint(0, len(body) - 1)]
+        contents=new_alert(msg) + msg
     )
 
 def send_new_email(receiver, sender):
     yag = yagmail.SMTP(sender, oauth2_file='oauth2.json')
+    msg = newbody[random.randint(0, len(newbody) - 1)]
     yag.send(
         to=receiver,
         subject="test",
-        contents=newbody[random.randint(0, len(newbody) - 1)]
+        contents=new_alert(msg) + msg
     )
