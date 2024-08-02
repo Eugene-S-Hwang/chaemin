@@ -17,24 +17,24 @@ body = ["I love you so much!", "You are doing great. Keep going, I am right next
             "You're beautiful, you know that?", "I can completely rely on you because I trust you the most.", "You are my favorite person :)", "You're so FUCKING PRETTYYYYYY", "I hope you're doing okay right now. I always do.", "I'm always so proud of everything that you do.",
             "You're a beauty. Prettiest girl that I have ever seen in my life.", "I can't help but go crazy whenever I see you. Because you are gorgeous.", "I care about you the most.", "I'll give you the strength to keep going, whenever you need it. :)", ]
 
-newbody = ["""dear chaemin,
+# newbody = ["""dear chaemin,
 
-it’s almost national girlfriend’s day! i’m so happy that i’m your boyfriend and  that you are my girlfriend!! i still feel so lucky that i have someone to call as my love and my precious girlfriend. you always care for me so well and you always make me so so happy. i love these late night calls that i do with you because i’m able to talk with you after a long day. i love it
+# it’s almost national girlfriend’s day! i’m so happy that i’m your boyfriend and  that you are my girlfriend!! i still feel so lucky that i have someone to call as my love and my precious girlfriend. you always care for me so well and you always make me so so happy. i love these late night calls that i do with you because i’m able to talk with you after a long day. i love it
 
-i also love when we go on dates! i want to go on trips with you in the future and i want to see the world with you. i want to eat everything with you and i want to do everything with you. because you make me so so happy. i know i might get kind of goofy with you but i also love your goofy and silly side. it’s so cute
+# i also love when we go on dates! i want to go on trips with you in the future and i want to see the world with you. i want to eat everything with you and i want to do everything with you. because you make me so so happy. i know i might get kind of goofy with you but i also love your goofy and silly side. it’s so cute
 
-i think you’re the cutest girl in the world. i said this like an infinite amount of times but that’s because it think you are infinitely cute. you are the prettiest and the cutest girl that i have ever seen and i just can’t help but fall in love with you. 
+# i think you’re the cutest girl in the world. i said this like an infinite amount of times but that’s because it think you are infinitely cute. you are the prettiest and the cutest girl that i have ever seen and i just can’t help but fall in love with you. 
 
-i also really like how you draw. i really love all of your artworks which is why i always ask for them. i think they look beautiful and are genuinely wonderful. i can make a whole exhibition out of them. you’re artistic talent is so respectable and i wish i could have every single artwork of yours (like a copy). you’re like a beautiful artwork. 
+# i also really like how you draw. i really love all of your artworks which is why i always ask for them. i think they look beautiful and are genuinely wonderful. i can make a whole exhibition out of them. you’re artistic talent is so respectable and i wish i could have every single artwork of yours (like a copy). you’re like a beautiful artwork. 
 
-i love how you always take care of me and how you’re always so happy to see me. i love the way you love me and i’m so happy that i have someone who loves me just the way i love them. i think that i am eternally lucky for that. i really do. i want to love you forever and ever. i want to marry you
+# i love how you always take care of me and how you’re always so happy to see me. i love the way you love me and i’m so happy that i have someone who loves me just the way i love them. i think that i am eternally lucky for that. i really do. i want to love you forever and ever. i want to marry you
 
-we may have our ups and downs but no matter what, i am going to talk it out with you. i want to make this relationship work forever because you are the best girlfriend that i could ever ask for in this whole world. you are the best chaemin. you really are. don’t let anyone else tell you otherwise. 
+# we may have our ups and downs but no matter what, i am going to talk it out with you. i want to make this relationship work forever because you are the best girlfriend that i could ever ask for in this whole world. you are the best chaemin. you really are. don’t let anyone else tell you otherwise. 
 
-i’m so thankful to be your boyfriend. happy national girlfriends day my precious girl. 😊""", "Press this link! -> https://docs.google.com/document/d/1G3ETX4JxVgTgUlCVqzkCtwH5AWyvpWcKbczmLL3dA_U/edit", "Press this link! -> https://docs.google.com/document/d/1zzAh7oJm-GQAEJtmMjCopJJPfhOejZBNNrYFbCTzLs0/edit",
-"Press this link! -> https://docs.google.com/document/d/1ugWkqaKxeWFxjxktXC9i25aW1r7qx__gp4OU8DNGoeM/edit", "Press this link! -> https://docs.google.com/document/d/1b7GdDfcYctpz5Xk69xVYElzsWF_3EjDg3biuZp5NuXg/edit", "You were so pretty today, yesterday, and tomorrow.", "You got so much rizz girllll!", "I'll get you everything in the world. I just really want to make you happy :).",
-"I'll protect you from anything that harms you. I promise.", "SLAYYYYYYY YOU GO GIRLBOSS!!! POP OFF! YOU GO GIRL!", "I'm always proud of you. Remember that, okay?", "My lovely girlie girl.", "HI CHAE CHAE!", "You're so cute!", "채민아, 나는 너랑 있어서 행복해!", "고마워! 나를 사랑해줘서 :)", "너는 엄청 이쁘더라!", "너는 가장 사랑스럽고 아름다운 여자야. 내가 너의 남지친구이라는게 너무 좋아!", "갗이 한국 가자!!",
-"넌 나의 여자친구이고, 나는 너의 남자친구야 :) <3"]
+# i’m so thankful to be your boyfriend. happy national girlfriends day my precious girl. 😊""", "Press this link! -> https://docs.google.com/document/d/1G3ETX4JxVgTgUlCVqzkCtwH5AWyvpWcKbczmLL3dA_U/edit", "Press this link! -> https://docs.google.com/document/d/1zzAh7oJm-GQAEJtmMjCopJJPfhOejZBNNrYFbCTzLs0/edit",
+# "Press this link! -> https://docs.google.com/document/d/1ugWkqaKxeWFxjxktXC9i25aW1r7qx__gp4OU8DNGoeM/edit", "Press this link! -> https://docs.google.com/document/d/1b7GdDfcYctpz5Xk69xVYElzsWF_3EjDg3biuZp5NuXg/edit", "You were so pretty today, yesterday, and tomorrow.", "You got so much rizz girllll!", "I'll get you everything in the world. I just really want to make you happy :).",
+# "I'll protect you from anything that harms you. I promise.", "SLAYYYYYYY YOU GO GIRLBOSS!!! POP OFF! YOU GO GIRL!", "I'm always proud of you. Remember that, okay?", "My lovely girlie girl.", "HI CHAE CHAE!", "You're so cute!", "채민아, 나는 너랑 있어서 행복해!", "고마워! 나를 사랑해줘서 :)", "너는 엄청 이쁘더라!", "너는 가장 사랑스럽고 아름다운 여자야. 내가 너의 남지친구이라는게 너무 좋아!", "갗이 한국 가자!!",
+# "넌 나의 여자친구이고, 나는 너의 남자친구야 :) <3"]
 
 
 def send_email(receiver, sender):
