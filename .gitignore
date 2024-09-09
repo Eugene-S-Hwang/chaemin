@@ -1,5 +1,6 @@
 .streamlit/secrets.toml
 .oauth2.json
+emaiL_address.py
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
