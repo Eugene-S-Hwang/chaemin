@@ -1,7 +1,7 @@
 import yagmail
 import streamlit as st
 import random
-import os
+# import os
 
 body = ["I love you so much!", "You are doing great. Keep going, I am right next to you.", "You are so so pretty :D", "You're the best and you make me feel so happy. I feel so loved when I'm with you",
             "If I'm not with you, I miss you.", "I can trust you with my life, my love. I can trust you with everything.", "the way you go up and down while tugging my sleeves when you see something cute is my favorite weird habit of yours.", 
@@ -103,5 +103,3 @@ def send_new_email(receiver, sender):
         subject="YOU GOT A MESSAGE",
         contents=msg
     )
-
-# send_email("rubysophia0716@gmail.com", "eugene2chaemin@gmail.com")
