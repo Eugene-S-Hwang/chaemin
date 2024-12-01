@@ -104,4 +104,4 @@ def send_new_email(receiver, sender):
         contents=msg
     )
 
-# send_email("rubysophia0716@gmail.com", "euge ne2chaemin@gmail.com")
+# send_email("rubysophia0716@gmail.com", "eugene2chaemin@gmail.com")
