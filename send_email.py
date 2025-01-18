@@ -58,31 +58,8 @@ body = ["I love you so much!", "You are doing great. Keep going, I am right next
             You are beautiful you know that? I hope you really know that. I genuinely think that you are the most beautiful girl in the whole entire world. I feel so lucky that I am your boyfriend and I will be eternally grateful. I am so happy to be loved by you and to love you. I love you, my precious girl. I love you chaemin.""", "I won't raise my voice at you, even if we fight.", "I'll always help you with math.", 
             "You are the most beautiful girl I've seen.", "I love how you play the clarinet. I wish I could hear it again", "I love your body and your skin. It's so beautiful and hot.", "I love your love of cats. KITTTIESSSSS", "I'll get you scruffy and cornia and we'll start a cat family!!", "You're my best friend and my lover.", "I feel so lucky to be with you."]
 
-newbody = ["I want to try my best for this relationship. I promise.", "You are the prettiest in this world!!!", "Tis the season to be with you!", "You a drag queen cause you drag me in :D", "I've never stopped loving you. It's a fact", "You're so cute and adorable!",
-           """dear chaemin,
-
-i love you with all of my heart. you are the cutest girl that I have ever ever met. i say this a lot but I love how you love me and i love that i love you. I am so happy to be with you and i genuinely can’t wait to marry you.
-
-i also can’t wait to see your gifts. i’m not a gift person but your gifts are always so thoughtful and lovely. i always love reading your cards and letters and all the small notes that you put on the gifts. i always feel bad with the gifts because i always feel like i don’t give enough compared to how much effort you put into yours. 
-
-chaemin, i am so happy that you are my girlfriend. despite my flaws, you still love me and treat me the best. i’m so happy that i continue to be your boyfriend throughout all this time. i love you so so much.
-
-i will never in my life regret the day that i asked you out on may 16, 2022, 2:40PM. i think that that is the best decision that i have made for my life. 
-
-you are perfect just the way you are. i feel so lucky that you chose me as your boyfriend. me. my first ever crush accepted my love! how lucky am i for that. i am so lucky that the girl that i love treats me the same way back. 
-
-thank you for accepting my love chaemin. i am eternally grateful for that. i always say that i feel lucky that you accepted my love and my confessions, but it’s true. i feel so so lucky. honestly, i also feel like it’s fate. i told you about the story of my friends back in wolfram asking if i think its fate, but i really do think its fate. i couldn’t answer no even though i was supposed to according to my stance in the debate LMAO
-
-i’m just so happy to be your boyfriend. i hope to be yours forever. 
-
-From, your eternal love""", """Dear Chaemin,
-
-Hi my love!! You are the best girlfriend that I could ever ask for. You are the prettiest, cutest, most wonderful girl to ever be with. I am so happy to be your boyfriend. Yesterday was wonderful and I am so thankful that I was able to meet you that day. I am grateful for everything that you do for me and I am so happy that I have someone that I can trust. 
-
-You know, I love every single part of you. No matter how much you say you don’t like your body, that will never change how much I love you. I love your smile, your nose, your sparkling eyes, your soft skin, your bright lips, your warm body. I love it all. I can never have enough of you. 
-
-You are beautiful you know that? I hope you really know that. I genuinely think that you are the most beautiful girl in the whole entire world. I feel so lucky that I am your boyfriend and I will be eternally grateful. I am so happy to be loved by you and to love you. I love you, my precious girl. I love you chaemin.""", "I won't raise my voice at you, even if we fight.", "I'll always help you with math.", 
-"You are the most beautiful girl I've seen.", "I love how you play the clarinet. I wish I could hear it again", "I love your body and your skin. It's so beautiful and hot.", "I love your love of cats. KITTTIESSSSS", "I'll get you scruffy and cornia and we'll start a cat family!!", "You're my best friend and my lover.", "I feel so lucky to be with you."]
+newbody = ["At the time I wrote this message, we ended our college apps! Well, I still have UMich but I just want to say I'm proud of you for getting through all of this! You got this!", "You're my little pharmacist!", "Always remember to follow your dreams! I can't wait to see you succeed!", "You're so lovely and I love it whenever you cuddle with plushies", "OMG CUTE GIRL!!!",
+           "Always remember that you are doing great. Never give up and always focus on your path!!"]
 
 
 def send_email(receiver, sender):
