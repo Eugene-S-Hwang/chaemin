@@ -63,13 +63,14 @@ newbody = ["You're so hot. I'm so pent up and all I want to do is pin you down o
 
 og_indxs = []
 def send_email(receiver, sender):
-
     yag = yagmail.SMTP(sender, oauth2_file='oauth2.json')
     indx = random.randint(0, len(body) - 1)
-    while(indx not in og_indxs):
+    while(indx in og_indxs):
         indx = random.randint(0, len(body) - 1)
     msg = body[indx]
     og_indxs.append(indx)
+    if len(og_indxs) == len(body):
+        og_indxs.clear()
     yag.send(
         to=receiver,
         subject="YOU GOT A MESSAGE",
@@ -80,9 +81,12 @@ new_indxs = []
 def send_new_email(receiver, sender):
     yag = yagmail.SMTP(sender, oauth2_file='oauth2.json')
     indx = random.randint(0, len(newbody) - 1)
-    while(indx not in new_indxs):
+    while(indx in new_indxs):
         indx = random.randint(0, len(newbody) - 1)
     msg = newbody[indx]
+    new_indxs.append(indx)
+    if len(new_indxs) == len(newbody):
+        new_indxs.clear()
     yag.send(
         to=receiver,
         subject="YOU GOT A MESSAGE",
