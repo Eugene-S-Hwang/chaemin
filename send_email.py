@@ -80,3 +80,5 @@ def send_new_email(receiver, sender):
         subject="YOU GOT A MESSAGE",
         contents=msg
     )
+
+# send_email("rubysophia0716@gmail.com", "eugene2chaemin@gmail.com")
