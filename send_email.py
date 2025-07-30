@@ -61,20 +61,28 @@ body = ["I love you so much!", "You are doing great. Keep going, I am right next
 
 newbody = ["You're so hot. I'm so pent up and all I want to do is pin you down on your bed and rail you until you can't take it anymore.", "I love it when you ride it", "I always like pressing into your stomach while I'm inside of you", "I love your reactions when I play with your nipples", "You make me get so hard so you should be the one who takes care of it", "I'll do it in every position - front, side, back"]
 
-
+og_indxs = []
 def send_email(receiver, sender):
 
     yag = yagmail.SMTP(sender, oauth2_file='oauth2.json')
-    msg = body[random.randint(0, len(body) - 1)]
+    indx = random.randint(0, len(body) - 1)
+    while(indx not in og_indxs):
+        indx = random.randint(0, len(body) - 1)
+    msg = body[indx]
+    og_indxs.append(indx)
     yag.send(
         to=receiver,
         subject="YOU GOT A MESSAGE",
         contents=msg
     )
 
+new_indxs = []
 def send_new_email(receiver, sender):
     yag = yagmail.SMTP(sender, oauth2_file='oauth2.json')
-    msg = newbody[random.randint(0, len(newbody) - 1)]
+    indx = random.randint(0, len(newbody) - 1)
+    while(indx not in new_indxs):
+        indx = random.randint(0, len(newbody) - 1)
+    msg = newbody[indx]
     yag.send(
         to=receiver,
         subject="YOU GOT A MESSAGE",
