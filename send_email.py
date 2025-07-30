@@ -56,10 +56,10 @@ body = ["I love you so much!", "You are doing great. Keep going, I am right next
             You know, I love every single part of you. No matter how much you say you don’t like your body, that will never change how much I love you. I love your smile, your nose, your sparkling eyes, your soft skin, your bright lips, your warm body. I love it all. I can never have enough of you. 
 
             You are beautiful you know that? I hope you really know that. I genuinely think that you are the most beautiful girl in the whole entire world. I feel so lucky that I am your boyfriend and I will be eternally grateful. I am so happy to be loved by you and to love you. I love you, my precious girl. I love you chaemin.""", "I won't raise my voice at you, even if we fight.", "I'll always help you with math.", 
-            "You are the most beautiful girl I've seen.", "I love how you play the clarinet. I wish I could hear it again", "I love your body and your skin. It's so beautiful and hot.", "I love your love of cats. KITTTIESSSSS", "I'll get you scruffy and cornia and we'll start a cat family!!", "You're my best friend and my lover.", "I feel so lucky to be with you."]
-
-newbody = ["At the time I wrote this message, we ended our college apps! Well, I still have UMich but I just want to say I'm proud of you for getting through all of this! You got this!", "You're my little pharmacist!", "Always remember to follow your dreams! I can't wait to see you succeed!", "You're so lovely and I love it whenever you cuddle with plushies", "OMG CUTE GIRL!!!",
+            "You are the most beautiful girl I've seen.", "I love how you play the clarinet. I wish I could hear it again", "I love your body and your skin. It's so beautiful and hot.", "I love your love of cats. KITTTIESSSSS", "I'll get you scruffy and cornia and we'll start a cat family!!", "You're my best friend and my lover.", "I feel so lucky to be with you.", "At the time I wrote this message, we ended our college apps! Well, I still have UMich but I just want to say I'm proud of you for getting through all of this! You got this!", "You're my little pharmacist!", "Always remember to follow your dreams! I can't wait to see you succeed!", "You're so lovely and I love it whenever you cuddle with plushies", "OMG CUTE GIRL!!!",
            "Always remember that you are doing great. Never give up and always focus on your path!!"]
+
+newbody = ["You're so hot. I'm so pent up and all I want to do is pin you down on your bed and rail you until you can't take it anymore."]
 
 
 def send_email(receiver, sender):
