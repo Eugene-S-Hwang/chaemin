@@ -57,3 +57,6 @@ if(st.session_state["stage"] == 0):
     if(st.button("Press for a new surprise!", type="primary")):
         send_email.send_new_email(receiver, sender)
         st.write("sent!")
+    if(st.button("Press for a LONG surprise!", type="primary")):
+        send_email.send_new_long_email(receiver, sender)
+        st.write("sent!")
