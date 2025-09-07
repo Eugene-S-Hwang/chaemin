@@ -67,45 +67,46 @@ long_body = ["""I miss you a lot. Every waking moment, I miss holding your hands
             i’m so thankful to be your boyfriend. happy national girlfriends day my precious girl. 😊"""]
 
 # og_indxs = []
-def send_email(receiver, sender):
-    yag = yagmail.SMTP(sender, oauth2_file='oauth2.json')
-    indx = random.randint(0, len(body) - 1)
-    # while(indx in og_indxs):
-    #     indx = random.randint(0, len(body) - 1)
-    msg = body[indx]
-    # og_indxs.append(indx)
-    # if len(og_indxs) == len(body):
-    #     og_indxs.clear()
-    yag.send(
-        to=receiver,
-        subject="YOU GOT A MESSAGE",
-        contents=msg
-    )
+class emails:
+    def send_email(receiver, sender):
+        yag = yagmail.SMTP(sender, oauth2_file='oauth2.json')
+        indx = random.randint(0, len(body) - 1)
+        # while(indx in og_indxs):
+        #     indx = random.randint(0, len(body) - 1)
+        msg = body[indx]
+        # og_indxs.append(indx)
+        # if len(og_indxs) == len(body):
+        #     og_indxs.clear()
+        yag.send(
+            to=receiver,
+            subject="YOU GOT A MESSAGE",
+            contents=msg
+        )
 
-# new_indxs = []
-def send_new_email(receiver, sender):
-    yag = yagmail.SMTP(sender, oauth2_file='oauth2.json')
-    indx = random.randint(0, len(newbody) - 1)
-    # while(indx in new_indxs):
-    #     indx = random.randint(0, len(newbody) - 1)
-    msg = newbody[indx]
-    # new_indxs.append(indx)
-    # if len(new_indxs) == len(newbody):
-    #     new_indxs.clear()
-    yag.send(
-        to=receiver,
-        subject="YOU GOT A MESSAGE",
-        contents=msg
-    )
+    # new_indxs = []
+    def send_new_email(receiver, sender):
+        yag = yagmail.SMTP(sender, oauth2_file='oauth2.json')
+        indx = random.randint(0, len(newbody) - 1)
+        # while(indx in new_indxs):
+        #     indx = random.randint(0, len(newbody) - 1)
+        msg = newbody[indx]
+        # new_indxs.append(indx)
+        # if len(new_indxs) == len(newbody):
+        #     new_indxs.clear()
+        yag.send(
+            to=receiver,
+            subject="YOU GOT A MESSAGE",
+            contents=msg
+        )
 
-def send_new_long_email(receiver, sender):
-    yag = yagmail.SMTP(sender, oauth2_file='oauth2.json')
-    indx = random.randint(0, len(long_body) - 1)
-    msg = long_body[indx]
-    yag.send(
-        to=receiver,
-        subject="YOU GOT A MESSAGE",
-        contents=msg
-    )
+    def send_new_long_email(receiver, sender):
+        yag = yagmail.SMTP(sender, oauth2_file='oauth2.json')
+        indx = random.randint(0, len(long_body) - 1)
+        msg = long_body[indx]
+        yag.send(
+            to=receiver,
+            subject="YOU GOT A MESSAGE",
+            contents=msg
+        )
 
 # send_email("rubysophia0716@gmail.com", "eugene2chaemin@gmail.com")
